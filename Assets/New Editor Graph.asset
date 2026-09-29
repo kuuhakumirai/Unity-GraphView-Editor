@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0686f5621de0fdd479857dca3a2b06d0, type: 3}
+  m_Name: New Editor Graph
+  m_EditorClassIdentifier: Assembly-CSharp::GraphEditor.GraphObject
+  m_SerializedGraph: '{"hasError":true,"nodes":[{"$type":"EntryNode","guid":"b901b5fd-18d1-421d-9705-6c993b1c85ce","name":"Entry","position":[425.5,457.5],"expanded":true,"slots":[{"id":0,"guid":"098c7fea-b3cf-489b-a311-919cca676fd5","name":"Out","types":{"direction":"Output","feature":"Action","type":"Default"},"value":null,"connections":[]}]},{"$type":"OutputNode","guid":"21a9080b-6835-4733-b6c1-66e28c0c7aac","name":"Output","position":[1031.5,457.5],"expanded":true,"slots":[{"id":0,"guid":"e747d274-7f03-4bf6-8546-9d25b276b8bd","name":"In","types":{"direction":"Input","feature":"Action","type":"Default"},"value":null,"connections":[]}]}]}'
+  m_IsDirty: 0

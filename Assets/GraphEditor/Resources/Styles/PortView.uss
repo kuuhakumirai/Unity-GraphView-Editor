@@ -1,0 +1,55 @@
+﻿.Hidden
+{	visibility : hidden;
+	height : 0px;
+	width : 0px;
+}
+
+.type_Action
+{
+	--port-color : #FFC0CB;
+}
+
+.type_Action > #connector
+{
+	border-radius : 0px;
+}
+
+.type_String
+{
+	--port-color : #F6FF9A;
+}
+
+.type_Sprite
+{
+	--port-color : #84E4E7;
+}
+
+.type_AudioClip
+{
+	--port-color : #FFB90F;
+}
+
+.type_Float
+{
+	--port-color : #708090;
+}
+
+.type_Int
+{
+	--port-color : #F4A460;
+}
+
+.type_IntProperty
+{
+	--port-color : #E6E6E6;
+}
+
+.type_SelfSwitch
+{
+	--port-color : #E0FFFF;
+}
+
+.type_ScriptableObject
+{
+	--port-color : #00BFFF;
+}

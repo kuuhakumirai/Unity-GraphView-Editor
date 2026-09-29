@@ -1,0 +1,47 @@
+﻿StringInputNodeView {
+    width: 182px;
+    height: 34px;
+    padding-top: 1px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#container {
+    background-color: rgba(63, 63, 63, 0.8);
+    flex-direction: row;
+    align-items: center;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-color: rgba(25, 25, 25, 0.8);
+    border-radius: 2px;
+}
+
+.unity-base-field {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    -unity-text-align: middle-left;
+}
+
+StringInputNodeView .unity-base-field__input
+{
+    width: 130px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+FloatnputNodeView {
+    width: 122px;
+    height: 34px;
+    padding-top: 1px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+FloatInputNodeView .unity-base-field__input
+{
+    width: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}

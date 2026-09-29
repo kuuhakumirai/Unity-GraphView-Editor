@@ -1,0 +1,184 @@
+﻿.ErrorNode #node-border
+{
+	border-radius : 5px;
+	border-width : 2px;
+	border-color : red;
+}
+
+TextNodeView .unity-text-field__input
+{
+	width : 160px;
+}
+
+AudioNodeView, ItemNodeView, WeaponNodeView, ArmorNodeView
+{
+	width : 120px;
+}
+
+
+#previewFiller.expanded 
+{
+    width: 200px;
+    padding-bottom: 182px;
+}
+
+#previewFiller, #controls 
+{
+    background-color: rgba(63, 63, 63, 0.8);
+}
+
+#controls > #items 
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#title 
+{
+    padding-top: 8px;
+    border-bottom-width: 8px;
+}
+
+#previewContainer 
+{
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    border-radius: 6px;
+    padding-top: 6px;
+}
+
+#previewContainer > #preview
+{
+    width: 200px;
+    height: 200px;
+    align-items:center;
+}
+
+#contents > #preview-Audio
+{
+	width : 120px;
+    height: 20px;
+	flex-direction : row;
+}
+
+#contents > #preview-Audio > #left
+{
+	flex : 1 0 auto;
+}
+
+#contents > #preview-Audio > #left > #icon-Play
+{
+	width: 16px;
+    height: 16px;
+	align-self: center;
+	margin-top : 2px;
+    background-image : resource("Icons/d_PlayButton");
+}
+
+#contents > #preview-Audio > #left > #icon-Play:hover
+{
+	background-color: #2B2B2B;
+}
+
+#contents> #preview-Audio > #right
+{
+	flex : 1 0 auto;
+}
+
+#contents > #preview-Audio > #right > #icon-Stop
+{
+	width: 16px;
+    height: 16px;
+	align-self: center;
+	margin-top : 2px;
+    background-image : resource("Icons/d_PlayButton On");
+}
+
+#contents > #preview-Audio > #right > #icon-Stop:hover
+{
+	background-color: #2B2B2B;
+}
+
+#previewContainer > #preview > #collapse 
+{
+    background-color: #000;
+    border-color: #F0F0F0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    border-radius: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    margin-top: 4px;
+    align-items:center;
+    justify-content:center;
+}
+
+#previewContainer > #preview > #collapse 
+{
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+}
+
+#previewContainer > #preview > #collapse > #icon  
+{
+    background-image : resource("Icons/PreviewCollapse");
+    width: 16px;
+    height: 16px;
+}
+
+#previewContainer > #preview > #collapse:hover
+{
+    opacity: 1.0;
+}
+
+#previewFiller > #expand 
+{
+    align-self: center;
+    width: 56px;
+    height: 16px;
+    flex-direction: row;
+    justify-content:center;
+}
+
+#previewFiller > #expand > #icon 
+{
+    background-image : resource("Icons/PreviewExpand");
+    width: 16px;
+    height: 16px;
+}
+
+#previewFiller.collapsed > #expand:hover 
+{
+    background-color: #2B2B2B;
+}
+
+#previewFiller.expanded > #expand 
+{
+    height: 0px;
+	visibility : hidden;
+}
+
+ImageNodeView .unity-object-field
+{
+    padding-bottom: 0px;
+    height: 18px;
+}
+
+#previewContainer > #preview.Hidden
+{
+    width : 0px;    
+    height: 0px;
+	visibility : hidden;
+}
+
+#previewFiller.Hidden
+{
+    height: 0px;
+	visibility : hidden;
+    padding-bottom: 0px;
+}

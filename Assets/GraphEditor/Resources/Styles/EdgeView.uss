@@ -1,0 +1,4 @@
+.ActionEdge
+{
+	--edge-width : 6;
+}
