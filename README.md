@@ -10,6 +10,14 @@
 - 可扩展
 - 源生成器
 
+## 效果预览
+
+![效果预览 - Editor](Manual/Preview-Editor.png)
+
+![效果预览 - Prefab](Manual/Preview-Prefab.png)
+
+![效果预览 - Runtime](Manual/Preview-Runtime.png)
+
 ## 编辑器框架
 - Editor（GraphWindow : EditorWindow）
   - GraphEditorView（VisualElement）
