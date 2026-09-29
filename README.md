@@ -6,7 +6,7 @@
 - 原生UIElements
 - 节点化
 - 全局变量可拖拽
-- 使用Json存储
+- Json/Guid
 - 可扩展
 - 源生成器
 
