@@ -34,7 +34,7 @@
 
 - BaseNodeView（: Node, IDisposable）
   - 公共部分
-    - Ports（input / output 容器）
+    - Ports（input / output）
     - Controls
     - Preview
     - Badges
@@ -44,3 +44,21 @@
   - BasicNodeView
   - InputView
 - PropertyNodeView
+
+## 数据结构
+
+- GraphObject（ScriptableObject, ISerializable）
+  - GraphData
+    - Nodes
+      - NodeData（: IData, `[JsonDerivedType]`）
+        - Position
+        - PreviewExpanded
+        - Slots
+          - SlotData
+            - Typee
+            - Value
+            - Connections (Guid)
+            - - BlackboardObject（ScriptableObject, ISerializable）
+  - BlackboardData
+    - Fields
+      - FieldData（: IData, `[JsonDerivedType]`）
