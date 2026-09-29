@@ -18,6 +18,19 @@
 
 ![效果预览 - Runtime](Manual/Preview-Runtime.png)
 
+## 框架说明
+- 视图
+  - 主视图
+    - 节点
+      - 端口
+    - 线
+  - 变量面板
+- 数据
+  - 序列化
+  - 视图数据
+    - 节点数据
+  - 面板数据
+
 ## 编辑器框架
 - Editor（GraphWindow : EditorWindow）
   - GraphEditorView（VisualElement）
