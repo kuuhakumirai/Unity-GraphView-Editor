@@ -73,13 +73,11 @@
     - Nodes
       - NodeData（: IData, `[JsonDerivedType]`）
         - Position
-        - PreviewExpanded
         - Slots
           - SlotData
-            - Typee
+            - Type
             - Value
             - Connections (Guid)
-            - - BlackboardObject（ScriptableObject, ISerializable）
   - BlackboardData
     - Fields
       - FieldData（: IData, `[JsonDerivedType]`）
