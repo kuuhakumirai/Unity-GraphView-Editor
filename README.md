@@ -5,8 +5,7 @@
 ## 项目特点
 - 原生UIElements
 - 节点化
-- 全局变量可拖拽
-- Json/Guid
+- Json
 - 可扩展
 - 源生成器
 
