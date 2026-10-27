@@ -67,16 +67,17 @@
 
 ## 数据结构
 
-- GraphObject（ScriptableObject, ISerializable）
+- GraphObject (SriptableObject)
   - GraphData
     - Nodes
-      - NodeData（: IData, `[JsonDerivedType]`）
-        - Position
-        - Slots
-          - SlotData
-            - Type
-            - Value
-            - Connections (Guid)
+    - NodeData
+      - Slots
+        - SlotData
+          - Type
+          - Value
+          - Connections
+
+- BlackboardObject (SriptableObject)
   - BlackboardData
     - Fields
-      - FieldData（: IData, `[JsonDerivedType]`）
+      - FieldData
